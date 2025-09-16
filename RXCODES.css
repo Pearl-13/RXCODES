@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Coiny&family=Comforter&family=Gugi&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   }
+    
+.about-text{
+    height: 500px;
+    color: rgb(157, 179, 180);
+    font-weight: bold;
+    
+}
+   #head{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-size: large;
+   }
+h3{
+    color: #f2c464;
+    position: relative; 
+    top: 30px;
+    text-align: center;
+    line-height: 1.1;               
+    white-space: nowrap;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.text-1{
+    color: #ff99cd;
+    line-height: 1.5;  
+    white-space: nowrap;
+    font-size: larger;
+    text-align: center;
+}
+#A{
+    color: white;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    
+
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 12px;
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+}
+.btn{
+    display: block;
+    font-size: 19px;
+    color: #d30a68;
+    
+  }
+.about-text2{
+    background-color: #0b1c66;
+    display: flex;
+    align-items: center;
+    height: 400px;
+  
+}
+.h2-font{
+    align-self: flex-start;
+    font-size: 28px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: #64f2eb;
+    white-space: nowrap;
+
+}
+.abt{
+    align-self: flex-start;
+    font-size: 25px;
+    position: relative;
+    top: 6rem;
+    font-style: italic;
+    left: -26rem;
+    white-space: nowrap;  
+    font-weight: bold;
+    color: rgb(199, 199, 209);
+}
+.text-2{    
+    font-size: 20px;
+    position: relative;
+    left: -35rem;
+    top: 2rem;
+    color: #df338c;
+    font-weight: bold;
+    
+    
+}
+
+ #video {
+    position: relative;
+    right: -50px;
+    top: 10px;
+    display: flex;
+    align-self: center;
+    justify-self: end;  
+    
+} 
+body{
+    background-color: #070122;
+}
+#S{
+    background-image: url('IMAGES/PPP.jpg');
+    transform: all 45s ease;
+    height: 100%; 
+    width: 100%;
+    background-size: cover;
+    padding: 15px;
+    opacity: 0.8;
+}
+.message{
+    height: 400px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    background: rgb(49, 49, 235);
+    border-radius: 7px;
+    margin-top: 100px;
+}
+.txt-3{
+    color: #ff99cd;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    position: relative;
+    top: 20px;
+
+}
+.txt-1{
+    color: white;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+.head{
+    color: #df338c;
+    padding-top: 30px;
+
+}
+
+@media (max-width: 480px) {
+    .about-text, .about-text2{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        height: fit-content;
+
+    }
+    .h2-font, h3 {
+        font-size: 16px;
+        left: auto;
+        right:auto;
+    }   
+    .abt {
+        padding-top: 45px;
+    }
+
+    .text-2, #A, .abt{
+        position: static;
+        text-align: center;
+        font-size: 18px;
+    
+    }
+    #video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: auto;
+        right:auto;
+      
+
+
+    }
+    .message {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 80%;
+        font-size: 10px;
+        padding: 5px;
+        text-align: center;
+        margin: auto;
+        height: 400px;
+
+    }
+   
+}
+
+@media (min-width:481px) and (max-width:968px) {
+     .about-text, .about-text2{
+        text-align: center;
+        padding: 15px;
+        height: auto;
+
+    }
+    h3 {
+        font-size: 30px;
+    }
+     .h2-font {
+        font-size: 30px;
+        left: 180px;
+        top: 10px;
+        right: auto;
+
+    }   
+    .abt {    
+        margin-right: auto;
+        top: 120px;
+        
+    }
+    #content {
+         flex-wrap: wrap;
+    }
+    .text-2 {       
+        font-size: 25px;
+        position: relative;
+        top: 250px;
+        margin-top: -90px;
+        margin-bottom: auto;
+        margin-left: -90px;
+    
+    }
+    #video {
+        width: 100%;
+        left: -180px;
+        padding-bottom: 45px;
+        padding-right: 15px;
+    }
+    
+    .message{
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 80%;
+        height: 500px;
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .txt-1, .txt-3{
+        font-size: 30px;
+
+    }
+   
+}
+@media (min-width:969px) and (max-width:1440px) {
+    .about-text, .about-text2{
+        text-align: center;
+        padding: 25px;
+        height: auto;
+
+    }
+    h3 {
+        font-size: 40px;
+    }
+     .h2-font {
+        font-size: 40px;
+        left: 190px;
+        top: 25px;
+        right: auto;
+
+    }   
+    .abt {     
+        top: 120px;
+        font-size: 40px;
+        left: -40rem;
+        
+    }
+    #content {
+        flex-wrap: wrap;
+        
+    }
+    .text-2 {       
+        font-size: 30px;
+        position: relative;
+        top: 200px;
+        left: -45rem;
+        margin-left: -200px;
+        margin-right: 90px;
+
+        
+    
+    }
+    #video {
+        top: -70px;
+        left: -250px;
+        padding-right: 15px;
+    }
+    
+    .message{
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 80%;
+        height: 500px;
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .txt-1, .txt-3{
+        font-size: 30px;
+
+    }
+    
+}
+
